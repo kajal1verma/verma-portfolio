@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.experience-skills{
+    
+    width: 100%;
+    margin-block: 2rem;
+    /* align-items: center; */
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width: 30%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* margin-inline: 4rem; */
+    /* justify-content: center; */
+    
+}
+
+.card-body
+{
+    box-shadow: rgba(16, 235, 188, 0.35) 0px 0px 15px;
+    margin-inline: 2rem;
+    /* border: 1px solid white; */
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #1c3f51, #006176, #008694, #00ada7, #1dd3b0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    border-radius: 5px;
+    
+}
+.card-body:hover{
+  background-size: 100% 100%;
+
+}
+.card-heading{
+  color: #1dd3b0;
+  margin-block: 1rem;
+
+}
+.card-heading-detail p{
+  text-align: justify;
+}
+.skills{
+    /* height: 30vh; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 40%;
+    /* border: 1px solid white; */
+    /* margin-inline: 2rem; */
+    gap:20px;
+}
+.skill-box{
+  box-shadow: rgba(16, 235, 188, 0.35) 0px 0px 15px;
+    margin-block: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to right, #1c3f51, #006176, #008694, #00ada7, #1dd3b0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    /* border-radius: 50%; */
+
+}
+.skill-box:hover{
+  background-size: 100% 100%;
+
+}
+.icon{
+    font-size: 5rem;
+    max-width: 300px;
+    /* max-height: 150px; */
+
+}
+@media screen and (max-width: 768px) 
+{
+ .experience-skills{
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    /* border: 1px solid white; */
+ }   
+ .card{
+    width: 100%;
+ }
+ .skills{
+    width: 90%;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+ }
+ .icon{
+    max-width: 200px;
+ }
+ .skill-box{
+    /* gap: 40px; */
+width: 100px;
+height: 100px;
+ }
+}
