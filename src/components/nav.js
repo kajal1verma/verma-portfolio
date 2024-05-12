@@ -21,7 +21,8 @@ const Navbar = () => {
     
     return (
        <>
-        <nav className='nav'>
+        <nav>
+        <div  className='nav'>
         {/* <h1>sssss</h1> */}
         <a href="" className="logo">kajal verma </a>
 <ul className={active}>
@@ -44,6 +45,7 @@ const Navbar = () => {
     <div className="line1"></div>
     <div className="line2"></div>
     <div className="line3"></div>
+</div> 
 </div>
         </nav>
         <Main/>

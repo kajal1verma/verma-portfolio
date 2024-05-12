@@ -18,7 +18,7 @@ const Hire = () => {
             <div className="contact-logo">
             <div className="worktogether">
                  <MdContactMail className="contact-mail"/>
-                <h2>lets work together</h2>
+                <h4>lets work together</h4>
 
             </div>
               <br />
