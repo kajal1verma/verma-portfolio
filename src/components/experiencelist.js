@@ -10,4 +10,4 @@ const ExperienceList = () => {
   )
 }
 
-export default ExperienceList
+export default ExperienceList;
