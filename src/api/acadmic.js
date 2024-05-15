@@ -16,7 +16,7 @@ const AcadmicData=[
     {
         course:"Intermidiate",
         coursename:"intermidiate",
-        college:"Goverment gilrs inter college Bulandshahr,uttar pradesh.",
+        college:"Goverment girls inter college Bulandshahr,uttar pradesh.",
         year:"2014"
     },
     {

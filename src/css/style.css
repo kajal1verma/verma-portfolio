@@ -25,7 +25,7 @@ html {
   width: 100%;
 }
 body {
-  height: auto;
+  /* height: auto; */
   font-size: 1.6rem;
 }
 li {
@@ -92,6 +92,9 @@ li {
 @media screen and (max-width: 768px) {
   .nav-toggal {
     display: block;
+  }
+  .logo{
+    margin-right: 9rem;
   }
   .nav-menu {
     z-index: 999;
@@ -267,8 +270,10 @@ section {
   .home {
     flex-direction: column;
     height: 100vh;
+  
+    /* justify-content: space-evenly; */
     /* width: 100%; */
-    gap: 20px;
+    gap: 40px;
   }
   .content {
     /* border: 1px solid white; */
